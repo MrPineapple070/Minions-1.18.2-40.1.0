@@ -1,0 +1,28 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="APGL-3"
+issueTrackerURL="https://hypixel.net/link-forums/bug-reports.160/" #optional
+[[mods]] #mandatory
+modId="minions" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Hypixel SkyBlock Minions" #mandatory
+updateJSONURL="https://github.com/MrPineapple070/SkyBlock-1.18.2-40.1.0/blob/main/Mod%20Documents/changelog.json" #optional
+displayURL="https://wiki.hypixel.net" #optional
+logoFile="logo.png" #optional
+credits="Hypixel" #optional
+authors="Hypixel" #optional
+description='''
+Adds the Minions from Hypixel SkyBlock to Minecraft
+'''
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
